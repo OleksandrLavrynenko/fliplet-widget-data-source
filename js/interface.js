@@ -921,7 +921,7 @@ function sortDataSources(key, order, data) {
 }
 
 Handlebars.registerHelper('momentCalendar', function(date) {
-  return date ? moment(date).format(moment.localeData().longDateFormat('lll')) : '';
+  return date ? moment(date).format(moment.localeData().longDateFormat('lll')) : '-';
 });
 
 // Events
